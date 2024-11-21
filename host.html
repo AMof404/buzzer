@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Host Room</h1>
+        
+        <!-- Tile 1: Room Info -->
+        <div class="tile">
+            <button id="create-room">Create Room</button>
+            <h2 id="room-code">Room Code: Waiting...</h2>
+        </div>
+
+        <!-- Tile 2: Buzzer Controls -->
+        <div class="tile">
+            <h3>Buzzer Status</h3>
+            <p id="buzz-result">No buzz yet.</p>
+            <button id="reset-buzz">Reset Buzz</button>
+        </div>
+
+        <!-- Tile 3: Participants -->
+        <div class="tile">
+            <h3>Participants</h3>
+            <ul id="participant-list">No participants yet.</ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Room</h1>
+        <label for="participant-name">Your Name:</label>
+        <input type="text" id="participant-name" placeholder="Enter your name">
+        
+        <label for="join-code">Room Code:</label>
+        <input type="text" id="join-code" placeholder="Enter Room Code">
+        
+        <button id="join-room">Join Room</button>
+        <h3 id="buzz-status">Waiting to join...</h3>
+        
+        <div id="buzz-area" style="display: none;">
+            <button id="buzz-in">Buzz In!</button>
+        </div>
+    </div>
+</body>
+</html>
