@@ -4,7 +4,7 @@ import { getDatabase, ref, set, get, onValue, runTransaction } from "https://www
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAprsLGm4_FPOl_2lCrnxHW96zzqWuSgME",
+    apiKey: "${{ secrets.SECRET_KEY}}",
     authDomain: "buzzer-ad02c.firebaseapp.com",
     databaseURL: "https://buzzer-ad02c-default-rtdb.firebaseio.com",
     projectId: "buzzer-ad02c",
